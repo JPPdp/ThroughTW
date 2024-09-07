@@ -1,0 +1,45 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class CharacterSelect_Script : MonoBehaviour
+{
+
+    public GameObject optionPrefab;
+
+    public Transform prevCharacter;
+    public Transform selectedCharacter;
+
+    private void Start()
+    {
+        foreach (Character c in GameManager.instance.characters){
+
+            GameObject option = Instantiate(optionPrefab, transform);
+            Button button = option.GetComponent<Button>();
+            //Image image = option.GetComponentInChildren<Image>();
+            //Text text = option.GetComponent<Text>();
+            
+            button.onClick.AddListener(() => { GameManager.instance.SetCharacter(c);
+                if (selectedCharacter != null) {prevCharacter = selectedCharacter;}
+                selectedCharacter = option.transform;
+            });
+            //text.text = c.name;
+            //image.sprite = c.icon;
+        }
+
+    }
+    private void Update()
+    {
+        if (selectedCharacter != null)
+        {
+            selectedCharacter.localScale = Vector3.Lerp(selectedCharacter.localScale, new Vector3(1.2f, 1.2f, 1.2f), Time.deltaTime * 10);
+        }
+
+        if (prevCharacter != null)
+        {
+            prevCharacter.localScale = Vector3.Lerp(selectedCharacter.localScale, 
+                new Vector3(1f, 1f, 1f), Time.deltaTime * 10);
+        }
+
+    }
+
+}
