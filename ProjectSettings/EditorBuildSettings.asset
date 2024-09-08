@@ -9,18 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes_Menus_and_Controller/MainMenu_Menu.unity
     guid: d90ebeb14792400459969a53bfc3db59
   - enabled: 1
-    path: Assets/Scenes_Menus_and_Controller/MainMenu_Start.unity
-    guid: 9463b93f1326c374f85fbff5a89623b2
+    path: Assets/Scenes_Menus_and_Controller/Game_Selection_Array.unity
+    guid: d8a86b2ffb1e91940b4eb46b438e6e13
   - enabled: 1
     path: Assets/Scenes_Menus_and_Controller/MainMenu_LoadGame.unity
     guid: 938e228b7c3fd3f49a1406f01a2494ad
   - enabled: 1
+    path: Assets/Scenes_Menus_and_Controller/Game_Template.unity
+    guid: 031af676f85b22643aa213923aa3ff3f
+  - enabled: 0
+    path: Assets/Scenes_Menus_and_Controller/MainMenu_Start.unity
+    guid: 9463b93f1326c374f85fbff5a89623b2
+  - enabled: 0
     path: Assets/Scenes_Menus_and_Controller/Game_Only.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes_Menus_and_Controller/BareBones/Game_Selection_Array.unity
-    guid: d8a86b2ffb1e91940b4eb46b438e6e13
-  - enabled: 1
-    path: Assets/Scenes_Menus_and_Controller/BareBones/Game_Template.unity
-    guid: 031af676f85b22643aa213923aa3ff3f
   m_configObjects: {}

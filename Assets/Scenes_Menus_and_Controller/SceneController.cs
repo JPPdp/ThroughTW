@@ -31,7 +31,7 @@ public class MainMenu_TS : MonoBehaviour
 
     public void GoToPracticeMode()
     {
-        SceneManager.LoadSceneAsync(5);
+        SceneManager.LoadSceneAsync("Game_Template");
     }
     
 }
