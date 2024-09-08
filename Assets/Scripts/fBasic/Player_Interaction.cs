@@ -11,15 +11,16 @@ public class Player_Interaction : MonoBehaviour
     private GameObject currentTpObject;
     public  Camera Camera;
     public GameObject LoadScreen;
-    private float waitTime;
+    
+    
+    //private float waitTime;
+    //private bool nowLoading = false;
 
     public GameObject Optional_Obj;
     public void interact_Now()
     {
-        LoadScreen.SetActive(true);
-        while(waitTime != 2) {
-            waitTime += Time.deltaTime;
-        }
+        //LoadScreen.SetActive(true);
+        //nowLoading = true;
         if (currentTpObject != null)
         {   
             //transfrom current player position INTO(=) current TP objbect Get component(Script) <ScriptName>(run) -Method- [.Get -type- Destination()] DOT -type-(position)
@@ -30,10 +31,11 @@ public class Player_Interaction : MonoBehaviour
             Camera.transform.position = currentTpObject.GetComponent<Teleport>().GetDestination().position;
             //follow player with camera
 
-            LoadScreen.SetActive(false);
+            //isLoading();
             //currentTpObject.SetActive(false);
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -65,5 +67,18 @@ public class Player_Interaction : MonoBehaviour
         }
     }
 
-
+    /*
+    void Update()
+    {
+        if (nowLoading == true)
+            while (nowLoading == true)
+            {
+                waitTime += Time.deltaTime;
+                if (waitTime == 2)
+                {
+                    nowLoading = false;
+                    LoadScreen.SetActive(false);
+                }
+            }
+    }*/
 }

@@ -23,4 +23,15 @@ public class MainMenu_TS : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("Game_Only");
     }
+
+    public void GoToSelectChar()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
+
+    public void GoToPracticeMode()
+    {
+        SceneManager.LoadSceneAsync(5);
+    }
+    
 }

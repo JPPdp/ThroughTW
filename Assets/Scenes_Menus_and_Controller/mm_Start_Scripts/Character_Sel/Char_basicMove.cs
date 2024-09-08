@@ -43,11 +43,12 @@ public class Char_basicMove : MonoBehaviour
         //================================================
 
         //verifier if char is moving
+        /*
         if (hInput >= 0.01f || hInput <= -0.01f)
         {
             anim.SetBool("isRunning", true);
         }
-        else { anim.SetBool("isRunning", false); }
+        else { anim.SetBool("isRunning", false); }*/
     }
 
 
