@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png"/></p>
+<p align="center"><img src="https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png" style="width:400px;"/></p>
 
 # Through Wilderness - A 2D Roguelike Adventure Game
 
