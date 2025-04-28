@@ -1,3 +1,4 @@
+![Banner](https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png)
 <p align="center"><img src="https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png" style="width:400px;"/></p>
 
 A 2D Roguelike Adventure Game
