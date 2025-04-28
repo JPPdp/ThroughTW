@@ -4,12 +4,29 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Teleporter
+  - Bullet
+  - Desctructable
+  - Wall
+  - Coin
+  - Key
+  - Weapon
+  - Item
+  - Enemy
+  - TeleporterToShop
+  - coinsText
+  - keysText
+  - EnemyBullet
+  - Heart
+  - Gun
+  - Dead
+  - PlayerUI
+  - PlayerMain
+  - Deathscreen
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Destructible
   - Water
   - UI
   - 
@@ -41,4 +58,34 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3510967097
+    locked: 0
+  - name: Walls
+    uniqueID: 2556149145
+    locked: 0
+  - name: Destructible
+    uniqueID: 639538499
+    locked: 0
+  - name: Enemies
+    uniqueID: 2768260385
+    locked: 0
+  - name: Players
+    uniqueID: 2644265813
+    locked: 0
+  - name: Items
+    uniqueID: 4139971093
+    locked: 0
+  - name: Bullets
+    uniqueID: 1758337001
+    locked: 0
+  - name: Special Effects
+    uniqueID: 806708905
+    locked: 0
+  - name: Details
+    uniqueID: 1697203823
+    locked: 0
+  - name: UI
+    uniqueID: 650693883
     locked: 0

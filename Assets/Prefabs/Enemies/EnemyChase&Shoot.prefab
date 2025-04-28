@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7044823083514532479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1399563949531524718, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: playerctrl
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371993457421664828, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650738231301301814, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_Name
+      value: EnemyChase&Shoot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650738231301301814, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 712405663768993935, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4650738231301301814, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 6706402404663811450}
+  m_SourcePrefab: {fileID: 100100000, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+--- !u!1 &2399996952274138185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4650738231301301814, guid: ecac9383cbd934349a22514d788ecdf2, type: 3}
+  m_PrefabInstance: {fileID: 7044823083514532479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6706402404663811450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399996952274138185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04570b37b60ad94ab8b84693e2e5b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  minimumDistance: 6
+  health: 1
+  timeBetweenShots: 5
+  target: {fileID: 0}
+  projectile: {fileID: 2790484069584600428, guid: 1ee678f4577baaf49a7521af36b275ca, type: 3}
+  dropItems:
+  - {fileID: 3649596188739724719, guid: 68c5626e135f8cd4ab13491710282bea, type: 3}
+  - {fileID: 9148272602068710310, guid: a4280bbe60cd2da49b61db54486d7d23, type: 3}
+  dropChance: 0.5
