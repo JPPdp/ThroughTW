@@ -83,7 +83,7 @@
 
 ## 📬 Contact & Support
 
-For questions or support, feel free to reach out to me at [your-email@example.com].
+For questions or support, feel free to reach out to me at payloyo@gmail.com
 
 ---
 
