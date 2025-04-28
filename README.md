@@ -1,8 +1,8 @@
 ![Banner](https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/bg.png)
 <p align="center"><img src="https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png" style="width:400px;"/></p>
+<a href="https://www.canva.com/design/DAGlugNZqF8/k5UpGfKjNQ2Em2lpBDnsvg/edit?utm_content=DAGlugNZqF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Presentation</a>
 
 A 2D Roguelike Adventure Game
-<a href="https://www.canva.com/design/DAGlugNZqF8/k5UpGfKjNQ2Em2lpBDnsvg/edit?utm_content=DAGlugNZqF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Presentation</a>
 
 **Through Wilderness** is a mobile **Roguelite** game where the player explores a vast, randomly generated world filled with monsters, bosses, and secrets. The game emphasizes risk and reward, where too much greed can be fatal, and every playthrough is unique due to random loot, events, and encounters.
 
