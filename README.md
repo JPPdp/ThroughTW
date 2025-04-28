@@ -68,11 +68,6 @@
 
 ---
 
-## 📂 Project Structure
-
-
----
-
 ## 🚀 Future Plans
 
 - **Multiplayer Support**: Consider adding multiplayer elements where players can cooperate or compete in the same world.
