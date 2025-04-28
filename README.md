@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png" style="width:400px;"/></p>
 
-# Through Wilderness - A 2D Roguelike Adventure Game
+A 2D Roguelike Adventure Game
 
 **Through Wilderness** is a mobile **Roguelite** game where the player explores a vast, randomly generated world filled with monsters, bosses, and secrets. The game emphasizes risk and reward, where too much greed can be fatal, and every playthrough is unique due to random loot, events, and encounters.
 
