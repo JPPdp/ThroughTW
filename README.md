@@ -1,4 +1,3 @@
-![Banner](https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/bg.png)
 <p align="center"><img src="https://github.com/JPPdp/ThroughWilderness/blob/main/SampleImg/title.png" style="width:400px;"/></p>
 <a href="https://www.canva.com/design/DAGlugNZqF8/k5UpGfKjNQ2Em2lpBDnsvg/edit?utm_content=DAGlugNZqF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Presentation</a>
 
